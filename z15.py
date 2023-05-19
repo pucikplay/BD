@@ -21,7 +21,7 @@ class Bloom:
 if __name__ == "__main__":
     B = Bloom(WORD_NO)
     stop_words = z1.importStopWords()
-    words = z1.cleanText("Labo/L1/Szekspir/hamlet.txt", stop_words).keys()
+    words = z1.cleanText("Szekspir/hamlet.txt", stop_words).keys()
     print(words)
 
     for word in words:
@@ -29,5 +29,5 @@ if __name__ == "__main__":
     
     print(B.check('hamlet'))
     print(B.check('thou'))
-    print(B.check('dupa'))
+    print(B.check('lupa'))
 

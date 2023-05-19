@@ -9,7 +9,7 @@ if __name__ == "__main__":
     stop_words = z1.importStopWords()
     documents = {}
     for drama in dramas:
-        documents[drama] = z1.cleanText("Labo/L1/Szekspir/{}.txt".format(drama), stop_words)
+        documents[drama] = z1.cleanText("Szekspir/{}.txt".format(drama), stop_words)
 
     for drama in dramas:
         TFIDF = {}
@@ -21,7 +21,7 @@ if __name__ == "__main__":
             IDF = math.log2(n/k)
             TFIDF[word] = int(documents[drama][word] * IDF)
 
-        output_file = open("Labo/L1/{}_out.csv".format(drama), "w")
+        output_file = open("data_out/{}_out.csv".format(drama), "w")
         output_file.write("\"weight\";\"word\"\n")
         for word in documents[drama]:
             output_file.write("\"{}\";\"{}\"\n".format(TFIDF[word], word))

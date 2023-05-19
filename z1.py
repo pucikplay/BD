@@ -1,7 +1,7 @@
 import re
 
 def importStopWords():
-    stop_words_file = open("Labo/L1/Szekspir/stop_words_english.txt", mode="r", encoding="utf8")
+    stop_words_file = open("Szekspir/stop_words_english.txt", mode="r", encoding="utf8")
     stop_words = []
     for word in stop_words_file:
         stop_words.append(word[:-1])
@@ -35,9 +35,9 @@ def sortByFrequency(dict):
 
 if __name__ == "__main__":
     stop_words = importStopWords()
-    words = sortByFrequency(cleanText("Labo/L1/Szekspir/hamlet.txt", stop_words))
+    words = sortByFrequency(cleanText("Szekspir/hamlet.txt", stop_words))
 
-    output_file = open("Labo/L1/output.csv", "w")
+    output_file = open("data_out/output.csv", "w")
     output_file.write("\"weight\";\"word\"\n")
     for word in words:
         output_file.write("\"{}\";\"{}\"\n".format(word[1], word[0]))
