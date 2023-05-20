@@ -1,0 +1,113 @@
+hamlet_act_0 2829
+hamlet_act_1 2163
+hamlet_act_2 2983
+hamlet_act_3 2047
+hamlet_act_4 2331
+KingLear_act_0 3007
+KingLear_act_1 2212
+KingLear_act_2 2279
+KingLear_act_3 2537
+KingLear_act_4 1507
+Othello_act_0 2183
+Othello_act_1 2322
+Othello_act_2 2311
+Othello_act_3 1996
+Othello_act_4 1806
+RomeoJuliet_act_0 2568
+RomeoJuliet_act_1 2353
+RomeoJuliet_act_2 2876
+RomeoJuliet_act_3 1437
+RomeoJuliet_act_4 1555
+ulysses_act_0 11488
+ulysses_act_1 16261
+ulysses_act_2 21125
+ulysses_act_3 48163
+ulysses_act_4 8066
+n: 64
+hamlet_act_0 1
+hamlet_act_1 1
+hamlet_act_2 1
+hamlet_act_3 1
+hamlet_act_4 1
+KingLear_act_0 0
+KingLear_act_1 1
+KingLear_act_2 1
+KingLear_act_3 1
+KingLear_act_4 4
+Othello_act_0 1
+Othello_act_1 1
+Othello_act_2 4
+Othello_act_3 1
+Othello_act_4 1
+RomeoJuliet_act_0 1
+RomeoJuliet_act_1 1
+RomeoJuliet_act_2 1
+RomeoJuliet_act_3 2
+RomeoJuliet_act_4 3
+ulysses_act_0 0
+ulysses_act_1 0
+ulysses_act_2 0
+ulysses_act_3 0
+ulysses_act_4 0
+n: 128
+KingLear_act_0,KingLear_act_1 0.0078125 0.005600617999227501
+KingLear_act_0,KingLear_act_2 0.0078125 0.005529075309818875
+KingLear_act_0,KingLear_act_3 0.0234375 0.005087209302325582
+KingLear_act_1,KingLear_act_3 0.0078125 0.005946060734763219
+KingLear_act_2,KingLear_act_3 0.0078125 0.005862646566164154
+hamlet_act_0 2
+hamlet_act_1 2
+hamlet_act_2 3
+hamlet_act_3 0
+hamlet_act_4 2
+KingLear_act_0 2
+KingLear_act_1 2
+KingLear_act_2 2
+KingLear_act_3 0
+KingLear_act_4 4
+Othello_act_0 2
+Othello_act_1 2
+Othello_act_2 2
+Othello_act_3 0
+Othello_act_4 2
+RomeoJuliet_act_0 2
+RomeoJuliet_act_1 0
+RomeoJuliet_act_2 2
+RomeoJuliet_act_3 1
+RomeoJuliet_act_4 0
+ulysses_act_0 3
+ulysses_act_1 3
+ulysses_act_2 3
+ulysses_act_3 3
+ulysses_act_4 3
+n: 256
+KingLear_act_0,KingLear_act_1 0.00390625 0.005600617999227501
+KingLear_act_0,KingLear_act_2 0.00390625 0.005529075309818875
+KingLear_act_0,KingLear_act_3 0.01171875 0.005087209302325582
+KingLear_act_1,KingLear_act_3 0.00390625 0.005946060734763219
+KingLear_act_2,KingLear_act_3 0.00390625 0.005862646566164154
+hamlet_act_0 0
+hamlet_act_1 1
+hamlet_act_2 0
+hamlet_act_3 1
+hamlet_act_4 0
+KingLear_act_0 1
+KingLear_act_1 1
+KingLear_act_2 0
+KingLear_act_3 0
+KingLear_act_4 3
+Othello_act_0 1
+Othello_act_1 1
+Othello_act_2 1
+Othello_act_3 1
+Othello_act_4 4
+RomeoJuliet_act_0 1
+RomeoJuliet_act_1 1
+RomeoJuliet_act_2 0
+RomeoJuliet_act_3 2
+RomeoJuliet_act_4 1
+ulysses_act_0 0
+ulysses_act_1 0
+ulysses_act_2 0
+ulysses_act_3 0
+ulysses_act_4 0
