@@ -113,7 +113,14 @@ if __name__ == "__main__":
             if value != 0.0:
                 print(key, value, jackard_exact[key])
 
+        print("5 clusters:")
         kmeans = KMeans(n_clusters=5).fit(list(min_hashes.values()))
+        labels = kmeans.labels_
+        for i,key in enumerate(documents.keys()):
+            print(key, labels[i])
+
+        print("2 clusters:")
+        kmeans = KMeans(n_clusters=2).fit(list(min_hashes.values()))
         labels = kmeans.labels_
         for i,key in enumerate(documents.keys()):
             print(key, labels[i])
