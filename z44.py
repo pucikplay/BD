@@ -18,7 +18,7 @@ def getDists(points, n):
     
 if __name__ == "__main__":
     N = [1,10,100,1000]
-    k = 300
+    k = 100
 
     for n in N:
         plt.hist(getDists(getPoints(n,k), n), bins=100)
