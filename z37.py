@@ -5,7 +5,7 @@ import numpy as np
 def randVectors(n):
     vectors = []
     for _ in range(1024):
-        vectors.append([random.randrange(-1,2) for _ in range(n)])
+        vectors.append([random.choice([-1,1]) for _ in range(n)])
     return vectors
 
 def cosineDist(v1, v2):
