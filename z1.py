@@ -30,16 +30,19 @@ def cleanText(path, stop_words):
     return dict
 
 def sortByFrequency(dict):
-    words = sorted(dict.items(), key=lambda x:x[1], reverse=True)
+    words = sorted(dict.items(), key=lambda x:x[0])
     return words
 
 if __name__ == "__main__":
     stop_words = importStopWords()
-    words = sortByFrequency(cleanText("Szekspir/hamlet.txt", stop_words))
+    dramas = ["hamlet", "KingLear", "Othello", "RomeoJuliet"]
+    words = {}
+    for file in dramas:
+        words = sortByFrequency(cleanText("Szekspir/{}.txt".format(file), stop_words))
 
-    output_file = open("data_out/output.csv", "w")
-    output_file.write("\"weight\";\"word\"\n")
-    for word in words:
-        output_file.write("\"{}\";\"{}\"\n".format(word[1], word[0]))
+        output_file = open("data_out/{}_words.csv".format(file), "w")
+        # output_file.write("\"weight\";\"word\"\n")
+        for word in words:
+            output_file.write("\"{}\";\"{}\"\n".format(word[1], word[0]))
 
     output_file.close()
