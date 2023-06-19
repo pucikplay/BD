@@ -30,10 +30,10 @@ def matrixL():
     return L
 
 def matrixA():
-    A = np.random.rand(2,3)
+    A = np.random.normal(loc=0.0, size=(2,3))
     # return A * (1/math.sqrt(2))
-    return np.array([[0.00431902, 0.0879098,  0.44337079],
-    [0.35332662, 0.15498393, 0.4102104]])
+    return np.array([[0.57429646, -0.36708454, -0.71223254],
+                    [0.05906266, 0.55620246, -0.20026114]])
 
 if __name__ == "__main__":
     base = ortonormalBase()

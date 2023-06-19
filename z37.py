@@ -40,5 +40,5 @@ if __name__ == "__main__":
         
     for drama_1 in dramas:
         for drama_2 in dramas:
-            if drama_1 != drama_2:
-                print("{},{}:{}".format(drama_1,drama_2,cosineDist(scalar_products[drama_1],scalar_products[drama_2])))
+            if drama_1 < drama_2:
+                print("{},{}:   {}".format(drama_1,drama_2,cosineDist(scalar_products[drama_1],scalar_products[drama_2])))
